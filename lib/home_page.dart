@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Instagram Clone', style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),),
+        title: Text('플러터 연습', style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),),
       body: _buildBody() 
     );
   }
@@ -24,9 +24,9 @@ class HomePage extends StatelessWidget {
             child: Center(
               child: Column(
                   children: <Widget>[
-                    Text('인스타 그램에 오신 걸 환영합니다', style: TextStyle(fontSize: 24)),
+                    Text('메인 페이지', style: TextStyle(fontSize: 24)),
                     Padding(padding: EdgeInsets.all(8.0),),
-                    Text('사진과 동영상을 보려면 클릭해주세요'),
+                    Text('플러터 연습 중'),
                     Padding(padding: EdgeInsets.all(16.0),),
                     SizedBox(
                       width: 350.0,
